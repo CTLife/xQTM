@@ -1,2 +1,2 @@
 # xQTM
-molecular quantitative trait methylation (QTM) analysis
+## Molecular quantitative trait methylation (QTM) analysis
