@@ -13,13 +13,13 @@ Please run perl BS-Seq_N.pl -help to know it’s usage and what can the N-th scr
 ### BS-Seq_2.pl: Remove adapters and bases with low quality by using Trimmomatic.   
 ### BS-Seq_3.pl: Remove PCR duplicates with 100% identity by using clumpify.sh of BBMap. (Optional)   
 
-###  
+------------------------           
 
 ### BS-Seq_4_bwa-meth.A.pl: Mapping reads to the Lambda phage genome (spike-ins) by using bwa-meth.
 ### BS-Seq_4_bwa-meth.B.pl: Mapping reads to the human reference genome by using bwa-meth.
 ### BS-Seq_4A.pl: To confirm the conversion rates of bisulfite sequencing,  we also mapped reads to the Lambda phage genome (spike-ins) by using Bismark.
 
-###
+-------------------------                
 
 ### BS-Seq_5.pl: Only the mapped reads with MAPQ>20 are retained. And only reads on chromosomes 1-22, X, and Y were ketp. Other reads are removed.           
 ### BS-Seq_6.pl: Remove PCR duplicates using Picard and convert BAM to BAMPE format.               
