@@ -7,13 +7,14 @@ Put all your raw FASTQ fiels into one folder, such as folder name “1_rawFASTQ�
 You can run the scripts step by step or run one of them for a specific purpose.                 
 Please run perl BS-Seq_N.pl -help to know it’s usage and what can the N-th script do.               
 
-------------------------  
-
+------------------------                     
+                             
                   
-Bisulfite Kit: https://www.zymoresearch.com/collections/ez-dna-methylation-gold-kits/products/ez-dna-methylation-gold-kit             
-Library Prep Kit: https://rochesequencingstore.com/wp-content/uploads/2022/07/KAPA-HyperPrep-Kit-Technical-Data-Sheet.pdf      
+### Bisulfite Kit: https://www.zymoresearch.com/collections/ez-dna-methylation-gold-kits/products/ez-dna-methylation-gold-kit             
+### Library Prep Kit: https://rochesequencingstore.com/wp-content/uploads/2022/07/KAPA-HyperPrep-Kit-Technical-Data-Sheet.pdf      
 
-------------------------     
+------------------------                     
+                   
 ## Steps:                                      
        
 ### BS-Seq_1.pl:                     
