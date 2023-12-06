@@ -1,4 +1,4 @@
-# A pipeline for RNA-seq and MeRIP-seq data analysis
+# A pipeline for WGBS data analysis
 
 For single-end sequencing, filenames of FASTQ files must always end with: ".fastq.gz".                           
 For paired-end sequencing, the two FASTQ files of each sample are tagged by "R1" and "R2" respectively, so the filenames should always end with: ".R1.fastq.gz" or ".R2.fastq.gz". And other parts of them must be identical.                         
