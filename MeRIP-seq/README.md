@@ -8,8 +8,9 @@ You can run the scripts step by step or run one of them for a specific purpose.
 Please run perl RASDA-N.pl -help to know it’s usage and what can the N-th script do.               
 
 
-## xRNA-Seq_1.pl: Check the quality of raw reads to identify possible experimental and sequencing errors or biases by using 4 tools: FastQC, fastp, FastQ_Screen, and MultiQC.
-Example: perl xRNA-Seq_1.pl -in 1_rawFASTQ
+### xRNA-Seq_1.pl:                       
+Check the quality of raw reads to identify possible experimental and sequencing errors or biases by using 4 tools: FastQC, fastp, FastQ_Screen, and MultiQC.           
+Example: perl xRNA-Seq_1.pl -in 1_rawFASTQ                   
                         
 xRNA-Seq_2.pl: Remove adapters and bases with low quality by using Trimmomatic and/or
 trim_galore.
