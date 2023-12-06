@@ -540,7 +540,7 @@ for (my $i=0; $i<=$#BAMfiles_g; $i++) {
     my $temp = $BAMfiles_g[$i]; 
     $temp =~ s/\.bam$//  ||  die; 
     say   "\t......$BAMfiles_g[$i]";
-    system("samtools  view   -h    --threads $numCores_g    -q 10       -o $output_g/$temp.bam   $input_g/$temp.bam    >> $output2_g/$temp.runLog     2>&1  "); 
+    system("samtools  view   -h    --threads $numCores_g    -q 20       -o $output_g/$temp.bam   $input_g/$temp.bam    >> $output2_g/$temp.runLog     2>&1  "); 
     system("samtools  index        $output_g/$temp.bam      >> $output_g/$temp.samtools.index.runLog.txt  2>&1"); 
 }
 ###################################################################################################################################################################################################
