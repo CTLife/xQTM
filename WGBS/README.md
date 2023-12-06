@@ -9,7 +9,7 @@ Please run perl BS-Seq_N.pl -help to know it’s usage and what can the N-th scr
 
 ------------------------                     
                              
-### Experimental protocol: please see 230724 WGBS_experiment record.docx                                      
+### Experimental protocol: please see 230724 WGBS_experiment record.docx  https://github.com/CTLife/xQTM/blob/main/WGBS/230724%20WGBS_experiment%20record.docx                                     
 ### Bisulfite Kit: https://www.zymoresearch.com/collections/ez-dna-methylation-gold-kits/products/ez-dna-methylation-gold-kit             
 ### Library Prep Kit: https://rochesequencingstore.com/wp-content/uploads/2022/07/KAPA-HyperPrep-Kit-Technical-Data-Sheet.pdf      
 
