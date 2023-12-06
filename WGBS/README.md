@@ -9,9 +9,12 @@ Please run perl BS-Seq_N.pl -help to know it’s usage and what can the N-th scr
 
 
 
-### BS-Seq_1.pl: Check the quality of raw reads to identify possible experimental and sequencing errors or biases by using 4 tools: FastQC, fastp, FastQ_Screen, and MultiQC.       
-### BS-Seq_2.pl: Remove adapters and bases with low quality by using Trimmomatic.   
-### BS-Seq_3.pl: Remove PCR duplicates with 100% identity by using clumpify.sh of BBMap. (Optional)   
+### BS-Seq_1.pl:                     
+Check the quality of raw reads to identify possible experimental and sequencing errors or biases by using 4 tools: FastQC, fastp, FastQ_Screen, and MultiQC.       
+### BS-Seq_2.pl:             
+Remove adapters and bases with low quality by using Trimmomatic.   
+### BS-Seq_3.pl:                        
+Remove PCR duplicates with 100% identity by using clumpify.sh of BBMap. (Optional)   
 
 ------------------------           
 
