@@ -8,7 +8,9 @@ You can run the scripts step by step or run one of them for a specific purpose.
 Please run perl BS-Seq_N.pl -help to know it’s usage and what can the N-th script do.               
 
 
-
+------------------------     
+## Steps:                                      
+       
 ### BS-Seq_1.pl:                     
 Check the quality of raw reads to identify possible experimental and sequencing errors or biases by using 4 tools: FastQC, fastp, FastQ_Screen, and MultiQC.       
 ### BS-Seq_2.pl:             
